@@ -32,15 +32,9 @@ Once it's done start up a local server with:
 npm run dev
 ```
 
-<<<<<<< HEAD
-## Deployment [![Netlify Status](https://api.netlify.com/api/v1/badges/d07f3b07-070a-41d7-bf4e-becc24e52a11/deploy-status)](https://app.netlify.com/sites/NVJK Kartikjain25/deploys)
+## Deployment [![Netlify Status](https://api.netlify.com/api/v1/badges/d07f3b07-070a-41d7-bf4e-becc24e52a11/deploy-status)](https://app.netlify.com/sites/NVJK Kartik/deploys)
 
-This site has been deployed on Netlify. You can visit it [here](https://NVJK Kartikjain25.netlify.app)
-=======
-## Deployment [![Netlify Status](https://api.netlify.com/api/v1/badges/d07f3b07-070a-41d7-bf4e-becc24e52a11/deploy-status)](https://app.netlify.com/sites/Vinayakjain25/deploys)
-
-This site has been deployed on Netlify. You can visit it [here](https://Vinayakjain25.netlify.app)
->>>>>>> origin
+This site has been deployed on Netlify. You can visit it [here](https://NVJK Kartik.netlify.app)
 
 ## License
 
