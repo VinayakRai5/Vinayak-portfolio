@@ -5,7 +5,7 @@ addons.setConfig({
   theme: {
     ...themes.dark,
     // brandImage: 'https://hamishw.com/icon.svg',
-    brandTitle: 'Mayank Jain Components',
-    brandUrl: 'https://mayankjain.cf',
+    brandTitle: 'NVJK Kartik Components',
+    brandUrl: 'https://NVJKKartik.cf',
   },
 });
