@@ -1,6 +1,6 @@
 # Personal portfolio
 
-[![Site preview](/public/site-preview.png)](https://vinayakrai.netlify.app)
+[![Site preview](/public/social-image1.png)](https://vinayakrai.netlify.app)
 
 This is my personal portfolio website to showcase some of my projects as well as my interests.
 
