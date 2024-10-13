@@ -1,6 +1,6 @@
 export const navLinks = [
   {
-    label: 'About Me',
+    label: 'About',
     pathname: '/#details',
   },
   {
