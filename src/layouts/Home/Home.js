@@ -76,8 +76,7 @@ export const Home = () => {
       <Meta
         title="Developer + Data Scientist"
         description="Portfolio of NVJK Kartik — a full-stack developer specializing in AI/ML,
-        building intelligent web and mobile applications. Focused on scalable solutions, seamless experiences, and data-driven innovations."
-      />
+        building intelligent web and mobile applications. Focused on scalable solutions, seamless experiences, and data-driven innovations."/>
       <Intro
         id="intro"
         sectionRef={intro}
