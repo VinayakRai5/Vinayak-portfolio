@@ -2,8 +2,8 @@ import Head from 'next/head';
 
 const siteUrl = process.env.NEXT_PUBLIC_WEBSITE_URL;
 const name = 'Vinayak';
-const twitterHandle = '@hamishMW';
-const defaultOgImage = `https://i.postimg.cc/DwK1GXqN/social-image1.png`;
+const twitterHandle = '@VINAYAKMR2';
+const defaultOgImage = `https://i.postimg.cc/htDgMkGV/social-image1.png`;
 
 export const Meta = ({ title, description, prefix = name, ogImage = defaultOgImage }) => {
   const titleText = [prefix, title].filter(Boolean).join(' | ');
