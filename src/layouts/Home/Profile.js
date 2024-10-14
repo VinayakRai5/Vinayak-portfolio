@@ -26,17 +26,19 @@ const ProfileText = ({ visible, titleId }) => (
   My passion extends to AI, specializing in machine learning, computer vision, and NLP.
 </Text>
 <Text className={styles.description} data-visible={visible} size="l" as="p">
-  I&apos;ve completed 4 internships, published 2 research papers, and was selected for the{' '}
-  <span style={{ fontWeight: 'bold' }}>Amazon Machine Learning Summer School &apos;24</span>. 
+  I&apos;ve completed four internships, <span style={{ fontWeight: 'bold' }}>published two research papers</span> in  
+  <Link href="https://2024.tale-conference.org/"> IEEE TALE 2024</Link> and 
+  <Link href="https://etsociety.org/t4e2024/"> T4E 2024</Link>, and was selected for the{' '}
+  <Link href="https://xathon.mettl.com/event/amazonmlsummerschool">Amazon Machine Learning Summer School &apos;24. </Link> 
   My research spans speaker diarization and metacognitive regulation in learning environments. 
   As <span style={{ fontWeight: 'bold' }}>Tech Team Lead</span> for our DS&AI Society, 
-  I&apos;ve led projects from online platforms for the specially abled to AI-powered attention tracking systems.
+  I&apos;ve led projects from online platforms for the specially abled to AI-powered attention tracking systems and energy-efficient 3D CNN architectures for lung cancer nodule analysis.
 </Text>
 <Text className={styles.description} data-visible={visible} size="l" as="p">
-  Proficient in Python, TensorFlow, and PyTorch, I&apos;m committed to solving real-world challenges 
-  with cutting-edge technology. Always eager to learn, I thrive in dynamic environments where 
-  I can push the boundaries of web development and AI.
+Proficient in Python, TensorFlow, PyTorch, and big data technologies, I&apos;m adept at developing AI solutions and optimizing deep learning models for real-world applications with a focus on energy efficiency and practical impact. My skills extend to full stack web development, where I create dynamic, seamless experiences. Always eager to learn, I thrive in fast-paced environments, pushing the boundaries of AI, data science, and web development.
+
 </Text>
+
   </Fragment>
 );
 
