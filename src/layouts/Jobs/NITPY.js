@@ -3,22 +3,14 @@ import React from 'react';
 import { getTasksTextWithHighlightedKeyword } from 'layouts/Jobs/taskAndType';
 import styles from './IITB.module.css'; // Importing the module
 
-export default function Vocab() {
+export default function EnsVision() {
   const tasks = [
     {
-      text: '• Developed RESTful APIs to automate data processing and analytics, increasing user engagement by 10%.',
+      text: '• Designed 77% more energy-efficient deep learning models for lung nodule classification and segmentation on the LIDC-IDRI dataset, achieving an 86% reduction in computational resource usage without compromising accuracy.',
       keywords: ['Alchemy', 'Wagmi', 'Web3.js', 'Moralis', 'Ethers.js'],
     },
     {
-      text: '• Developed Speaker Diarization and Voice Emotion Recognition models (81% accuracy) and a user-friendly ReactJS web application for model access.',
-      keywords: ['quality', 'testing tasks', 'user base'],
-    },
-    {
-      text: '• Fine-tuned Large Language Models (LLMs) such as Meta LLaMA 2 and OpenAI GPT-3.5 Turbo for sentiment analysis, topic modeling, and conversation scoring.',
-      keywords: ['quality', 'testing tasks', 'user base'],
-    },
-    {
-      text: '• Integrated an automated QA system into customer service workflows for real-time monitoring and analytics.',
+      text: '• Enhanced lung nodule analysis models through model pruning, quantization, and architectural optimizations, reducing memory and compute requirements by 95%, enabling real-time analysis and improving diagnostic efficiency.',
       keywords: ['quality', 'testing tasks', 'user base'],
     },
   ];
@@ -29,10 +21,10 @@ export default function Vocab() {
         <div className={styles.titleContainer}>
           {/* Title */}
           <span className={styles.title}>
-          Full Stack Developer Intern <span className={styles.company}>- Vocab.Ai</span>
+          MLOps Intern <span className={styles.company}>- Dept of CSE, NIT Puducherry</span>
           </span>
           {/* Date */}
-          <span className={styles.date}>Aug 2023 - May 2024</span>
+          <span className={styles.date}>Dec 2023 - Jan 2024</span>
         </div>
         <div className={styles.taskList}>
           {/* Tasks Description 1 */}
