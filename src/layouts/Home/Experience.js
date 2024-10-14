@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import IITB from "layouts/Jobs/IITB";
 import Vocab from "layouts/Jobs/vocab";
 import IITM from "layouts/Jobs/IITM";
-import NITPY from "layouts/Jobs/NITPY"
+import NITPY from "layouts/Jobs/NITPY";
 import ArrowDown from 'assets/arrow-down.svg';
 import RouterLink from 'next/link';
 import styles from './Experience.module.css'; // Import the CSS module
