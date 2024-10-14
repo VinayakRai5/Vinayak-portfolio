@@ -75,8 +75,9 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Developer + Data Scientist"
-        description="Portfolio of Vinayak Rai — a Developer and Data Scientist
-      />
+        description="Portfolio of NVJK Kartik — a full-stack developer specializing in AI/ML,
+        building intelligent web and mobile applications. Focused on scalable solutions, seamless experiences, and data-driven innovations."
+      />
       <Intro
         id="intro"
         sectionRef={intro}
