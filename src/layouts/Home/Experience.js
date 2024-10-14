@@ -26,10 +26,11 @@ export function Experience({ id, sectionRef, scrollIndicatorHidden, ...rest }) {
         return <IITB />;
       case "Vocab":
         return <Vocab />;
+      case "NITPY":
+          return <NITPY />;
       case "IITM":
         return <IITM />;
-        case "NITPY":
-          return <NITPY />;
+
       default:
         return null;
     }
@@ -133,23 +134,24 @@ const CompaniesBar = (props) => {
           setDescriptionJob={props.setDescriptionJob}
         />
         <CompanyButton
-          ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-          CompanyName="IIT Madras - RBC"
+          ButtonOrderOfcompanyNameBackgroundColorGreen={3}
+          CompanyName="NIT Puducherry"
           BarPosition={95} // Adjust the position as needed
           BarAbovePosition={3}
-          DescriptionJob="IITM"
+          DescriptionJob="NITPY"
           CompanyNameBackgroundColorGreen={[false, false, true, false]} // IITM unselected by default
           setDescriptionJob={props.setDescriptionJob}
         />
         <CompanyButton
-          ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-          CompanyName="NIT Puducherry"
+          ButtonOrderOfcompanyNameBackgroundColorGreen={2}
+          CompanyName="IIT Madras - RBC"
           BarPosition={150} // Adjust the position as needed
           BarAbovePosition={4}
-          DescriptionJob="NITPY"
+          DescriptionJob="IITM"
           CompanyNameBackgroundColorGreen={[false, false, false, true]} // IITM unselected by default
           setDescriptionJob={props.setDescriptionJob}
         />
+
       </div>
       <div className={styles.horizontalBar}>
         <motion.div animate={{ x: barAbovePosition }} className={styles.animatedHorizontalBar}></motion.div>

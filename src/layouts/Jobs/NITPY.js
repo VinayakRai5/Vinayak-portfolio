@@ -6,11 +6,19 @@ import styles from './IITB.module.css'; // Importing the module
 export default function EnsVision() {
   const tasks = [
     {
-      text: '• Designed 77% more energy-efficient deep learning models for lung nodule classification and segmentation on the LIDC-IDRI dataset, achieving an 86% reduction in computational resource usage without compromising accuracy.',
+      text: '• Designed deep learning models with 77% higher energy efficiency on the LIDC-IDRI dataset, maintaining accuracy in classification and segmentation.',
       keywords: ['Alchemy', 'Wagmi', 'Web3.js', 'Moralis', 'Ethers.js'],
     },
     {
-      text: '• Enhanced lung nodule analysis models through model pruning, quantization, and architectural optimizations, reducing memory and compute requirements by 95%, enabling real-time analysis and improving diagnostic efficiency.',
+      text: '• Implemented automated training and testing procedures to ensure reproducible results.',
+      keywords: ['quality', 'testing tasks', 'user base'],
+    },
+    {
+      text: '• Applied model optimizations like pruning and quantization to reduce memory and computational requirements.',
+      keywords: ['quality', 'testing tasks', 'user base'],
+    },
+    {
+      text: '• Submitted research findings for publication in MICCAI 2024 proceedings under the E2MIP challenge, focusing on the impact of optimizations on model performance and resource usage.',
       keywords: ['quality', 'testing tasks', 'user base'],
     },
   ];
@@ -24,7 +32,7 @@ export default function EnsVision() {
           MLOps Intern <span className={styles.company}>- Dept of CSE, NIT Puducherry</span>
           </span>
           {/* Date */}
-          <span className={styles.date}>Dec 2023 - Jan 2024</span>
+          <span className={styles.date}>December 2023 - January 2024</span>
         </div>
         <div className={styles.taskList}>
           {/* Tasks Description 1 */}

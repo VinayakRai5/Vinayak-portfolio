@@ -6,19 +6,19 @@ import styles from './IITB.module.css'; // Importing the module
 export default function Vocab() {
   const tasks = [
     {
-      text: '• Developed RESTful APIs to automate data processing and analytics, increasing user engagement by 10%.',
+      text: '• Built a full-stack data pipeline processing 100,000 customer service conversations from Google Business APIs with a 98% success rate.',
       keywords: ['Alchemy', 'Wagmi', 'Web3.js', 'Moralis', 'Ethers.js'],
     },
     {
-      text: '• Developed Speaker Diarization and Voice Emotion Recognition models (81% accuracy) and a user-friendly ReactJS web application for model access.',
+      text: '• Created a web UI for analyzing transcripts and displaying 10 key metrics, including response time and customer satisfaction scores.',
       keywords: ['quality', 'testing tasks', 'user base'],
     },
     {
-      text: '• Fine-tuned Large Language Models (LLMs) such as Meta LLaMA 2 and OpenAI GPT-3.5 Turbo for sentiment analysis, topic modeling, and conversation scoring.',
+      text: '• Fine-tuned Meta LLaMA 2 and OpenAI GPT-3.5 Turbo using LangChain for sentiment analysis, topic modeling, and conversation scoring.',
       keywords: ['quality', 'testing tasks', 'user base'],
     },
     {
-      text: '• Integrated an automated QA system into customer service workflows for real-time monitoring and analytics.',
+      text: '• Improved model accuracy by 8% through hyperparameter tuning and data augmentation techniques.',
       keywords: ['quality', 'testing tasks', 'user base'],
     },
   ];
@@ -32,7 +32,7 @@ export default function Vocab() {
           Full Stack Developer Intern <span className={styles.company}>- Vocab.Ai</span>
           </span>
           {/* Date */}
-          <span className={styles.date}>Aug 2023 - May 2024</span>
+          <span className={styles.date}>August 2023 - August 2024</span>
         </div>
         <div className={styles.taskList}>
           {/* Tasks Description 1 */}
