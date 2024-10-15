@@ -6,6 +6,6 @@ addons.setConfig({
     ...themes.dark,
     // brandImage: 'https://Vinayakrai.netlify.app/icon.svg',
     brandTitle: 'Vinayak Components',
-    brandUrl: 'https://Vinayakjain.cf',
+    brandUrl: 'https://Vinayak.cf',
   },
 });

@@ -20,7 +20,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-  I&apos;m Vinayak, a versatile full stack web developer and designer pursuing a degree in Data Science and AI at{' '}
+  I&apos;m Vinayak Rai, a versatile full stack web developer and designer pursuing a degree in Data Science and AI at{' '}
   <Link href="https://iiitdwd.ac.in/">Indian Institute of Information Technology Dharwad</Link>. 
   With expertise in the MERN stack and a keen eye for design, I craft seamless web experiences. 
   My passion extends to AI, specializing in machine learning, computer vision, and NLP.
